@@ -535,7 +535,7 @@ header.fixed .list-menu li a::before {
 }
 header .secondary-btn:hover {
   background-color: var(--white-color);
-  color: var(--primary-color);
+  color: var(--secondary-color) !important;
 }
 .mobile-menu-ico svg path {
   fill: var(--primary-color);
