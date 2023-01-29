@@ -648,12 +648,12 @@ footer {
   margin-top: 40px;
 }
 .highly-anticipated-project-col-box:hover {
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
   box-shadow: rgb(0 0 0 / 10%) 0px 0px 21px;
 }
 .highly-anticipated-project-col-box:hover h3,
 .highly-anticipated-project-col-box:hover span {
-  color: var(--white-color);
+  color: var(--primary-color);
 }
 .highly-anticipated-project-col-box:hover .highly-anticipated-ico-box {
   background-color: var(--secondary-color);
