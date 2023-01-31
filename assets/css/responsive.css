@@ -80,7 +80,7 @@
     padding-right: 10px;
   }
   .highly-anticipated-project-row {
-    grid-gap: 80px 20px;
+    grid-gap: 40px 20px;
   }
   header .primary-btn {
     min-width: 100px;
@@ -97,6 +97,9 @@
   }
   :root{
     --find-out-img-box: 400px;
+  }
+  .highly-anticipated-project-col-box h3{
+    font-size: 20px;
   }
 }
 @media (max-width: 991px) {
@@ -153,6 +156,7 @@
   }
   .highly-anticipated-project-col-box {
     padding: 20px;
+    min-height: 150px;
   }
   .custom-hero-swiper-slider .swiper-button-next,
   .custom-hero-swiper-slider .swiper-button-prev {
@@ -172,7 +176,8 @@
     padding: 20px 12px;
   }
   .highly-anticipated-project-row{
-    margin-top: 90px;
+    margin-top: 40px;
+    grid-gap: 20px;
   }
   .highly-anticipated-ico-box{
     margin-top: -60px;

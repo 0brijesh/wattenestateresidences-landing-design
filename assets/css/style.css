@@ -628,12 +628,27 @@ footer {
   grid-gap: 50px;
   margin-top: 80px;
 }
-.highly-anticipated-project-col-box {
+.highly-anticipated-project-col{
   border: 2px solid var(--primary-color);
+  padding: 5px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+.highly-anticipated-project-col:hover{
+  border-color: var(--black-color);
+}
+.highly-anticipated-project-col-box {
   padding: 40px;
-  border-radius: 0 30px;
-  background-color: #eee;
-  min-height: 150px;
+  border-radius: 10px;
+  /* background-color: #eee; */
+  background-image: url(./../images/banner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 170px;
+}
+.highly-anticipated-project-col-box::after{
+  border-radius: 10px;
 }
 .highly-anticipated-ico-box {
   width: 70px;
@@ -644,8 +659,8 @@ footer {
   margin-top: -80px;
 }
 .highly-anticipated-project-col-box h3 {
-  font-size: 20px;
-  margin-top: 40px;
+  font-size: 30px;
+  color: var(--white-color);
 }
 .highly-anticipated-project-col-box:hover {
   /* background-color: var(--primary-color); */
@@ -653,7 +668,6 @@ footer {
 }
 .highly-anticipated-project-col-box:hover h3,
 .highly-anticipated-project-col-box:hover span {
-  color: var(--primary-color);
 }
 .highly-anticipated-project-col-box:hover .highly-anticipated-ico-box {
   background-color: var(--secondary-color);
