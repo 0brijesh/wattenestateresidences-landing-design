@@ -624,8 +624,8 @@ footer {
 }
 .highly-anticipated-project-row {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
   margin-top: 80px;
 }
 .highly-anticipated-project-col{
@@ -659,7 +659,7 @@ footer {
   margin-top: -80px;
 }
 .highly-anticipated-project-col-box h3 {
-  font-size: 30px;
+  font-size: 24px;
   color: var(--white-color);
 }
 .highly-anticipated-project-col-box:hover {
@@ -722,6 +722,7 @@ p.enquire-link a{
   height: 350px;
   overflow: hidden;
   width: var(--find-out-img-box);
+  background-color: #f1f1f1;
 }
 .find-out-content-box {
   width: calc(100% - var(--find-out-img-box));
