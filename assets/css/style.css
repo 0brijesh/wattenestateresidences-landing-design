@@ -662,6 +662,9 @@ footer {
   font-size: 24px;
   color: var(--white-color);
 }
+.highly-anticipated-project-col-box p {
+  color: var(--body-color);
+}
 .highly-anticipated-project-col-box:hover {
   /* background-color: var(--primary-color); */
   box-shadow: rgb(0 0 0 / 10%) 0px 0px 21px;
